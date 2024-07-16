@@ -49,6 +49,7 @@ function App() {
         feedbackType={feedbackType}
         showReset={totalFeedback > 0}
         resetFeedback={resetFeedback}
+        totalFeedback={totalFeedback}
       />
       {totalFeedback > 0 ? (
         <Feedback
